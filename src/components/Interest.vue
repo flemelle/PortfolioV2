@@ -13,7 +13,7 @@ import InterestItem from "../components/InterestItem.vue"
                 name="Ipsum"
                 description="In fringilla volutpat est, quis imperdiet arcu maximus et. Sed at aliquet turpis, non vulputate erat. Nam ultricies suscipit ipsum vel rutrum. Fusce mollis ullamcorper leo eget varius. Sed sed elementum lorem. Sed tristique, turpis ac laoreet efficitur, mauris turpis feugiat nibh, et pharetra erat mi a diam. Etiam euismod risus vel ex vehicula convallis. Nullam eu feugiat nisi."
                 picture="../src/assets/img/iStock_000052710440_Medium.jpg"
-                order = "false"
+                :order = "false"
                 />
             <InterestItem
                 name="Dolore"
@@ -24,7 +24,8 @@ import InterestItem from "../components/InterestItem.vue"
                 name="Ipsum"
                 description="In fringilla volutpat est, quis imperdiet arcu maximus et. Sed at aliquet turpis, non vulputate erat. Nam ultricies suscipit ipsum vel rutrum. Fusce mollis ullamcorper leo eget varius. Sed sed elementum lorem. Sed tristique, turpis ac laoreet efficitur, mauris turpis feugiat nibh, et pharetra erat mi a diam. Etiam euismod risus vel ex vehicula convallis. Nullam eu feugiat nisi."
                 picture="../src/assets/img/wallpaperflare.com_wallpaper.jpg"
-            />
+                :order = "false"
+                />
             <InterestItem
                 name="Dolore"
                 description="Ut quis lobortis nisl. Sed suscipit felis ultrices augue rutrum sodales. Nunc in auctor nibh. Aliquam molestie eleifend justo, a blandit massa. Sed vitae posuere tellus, a gravida enim. Aenean vestibulum leo quis hendrerit malesuada. Sed scelerisque accumsan ex ut gravida."
