@@ -1,0 +1,43 @@
+<script setup>
+import ExperineceItem from "../components/ExperienceFormationItem.vue"
+</script>
+<template>
+    <section id="Experiences">
+        <div class="formationContainer">
+            <h2>Experiences</h2>
+            <ul>
+                <ExperineceItem
+                    name="Développeuse Full Stack"
+                    place="Dupliprint, 95330 Domont"
+                    time="Depuis 2023"
+                />
+                <ExperineceItem
+                    name="Développeuse Web"
+                    place="HRIS Pro Consulting, 93100 Montreuil"
+                    time="De 2022 à 2023"
+                />
+                <ExperineceItem
+                    name="Technicienne support informatique"
+                    place="Université Paris-Est Créteil, 94000 Créteil"
+                    time="dateFormation"
+                />
+            </ul>
+        </div>
+        <img class="pictureSide" src="../assets/img/pexels-sandrin-159590604-12083628.jpg" />
+    </section>
+</template>
+<style scoped>
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        width: 100%;
+    }
+    .formationContainer{
+        width : 50%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
