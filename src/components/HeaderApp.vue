@@ -18,13 +18,15 @@
 <template>
     <section id="Header">
         <div>
-            <a href="/">
+            <a href="#">
                 <img alt="Vue logo" class="logo" src="../assets/img/Logo/Logo.png"/>
                 <h1>Tiphereth Bruce</h1>
             </a>
         </div>
         <div :class="{'sticky': isSticky}">
-            <img alt="Vue logo" class="stickyLogo" src="../assets/img/Logo/Logo.png"/>
+            <a href="#">
+                <img alt="Vue logo" class="stickyLogo" src="../assets/img/Logo/Logo.png"/>
+            </a>
             <ul>
                 <li>
                     <a href="#AboutMe">About me</a>
@@ -83,7 +85,6 @@ li svg{
   height: 53px;
 }
 .stickyLogo{
-    
     transform: scale(0);
     height: 50px;
     width: 50px;
