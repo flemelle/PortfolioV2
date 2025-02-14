@@ -33,6 +33,7 @@ import ExperineceItem from "../components/ExperienceFormationItem.vue"
     }
     ul{
         width: 100%;
+        padding: 0;
     }
     .formationContainer{
         width : 50%;

@@ -33,6 +33,7 @@ import EducationItem from "../components/ExperienceFormationItem.vue"
     }
     ul{
         width: 100%;
+        padding: 0;
     }
     li{
         margin: 60px 0;

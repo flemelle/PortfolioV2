@@ -83,6 +83,7 @@ li svg{
   top: 0;
   box-shadow: 0px 0px 10px 10px var(--color-background-soft);
   height: 53px;
+  z-index: 100;
 }
 .stickyLogo{
     transform: scale(0);

@@ -6,55 +6,55 @@ import ProjectItem from "../components/ProjectItem.vue"
         <h2>Project</h2>
         <div>
             <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                name ="PortFolio V2"
+                technos ="HTML, CSS, PHP, JavaScript"
+                picture ="https://tiphereth.site/img/Project/PortefolioV2.png"
             />
             <ProjectItem
-                name ="Projetc 1"
+                name ="Doctolib Like"
                 technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/Project/Doctolib.png"
             />
             <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                name ="PortFolio V1"
+                technos ="HTML, CSS, PHP, JavaScript"
+                picture ="https://tiphereth.site/img/Project/PortefolioV1.png"
             />
             <ProjectItem
-                name ="Projetc 1"
+                name ="Kaamelott"
                 technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/Project/Kaamelott.jpeg"
             />
             <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                name ="Memento"
+                technos ="JavaScript, Node.js"
+                picture ="https://tiphereth.site/img/Project/Memento.jpeg"
             />
             <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                name ="Drop"
+                technos ="HTML, CSS, JavaScript"
+                picture ="https://tiphereth.site/img/Project/Drop.png"
             />
             <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                name ="White Lotus"
+                technos ="HTML, CSS, JavaScript"
+                picture ="https://tiphereth.site/img/Project/White_Lotus.png"
             />
             <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
+                name ="Waves"
+                technos ="HTML, CSS, JavaScript"
+                picture ="https://tiphereth.site/img/Project/Waves.png"
             />
             <ProjectItem
+                name ="Bubbles"
+                technos ="HTML, CSS, JavaScript"
+                picture ="https://tiphereth.site/img/Project/Bubbles.png"
+            />
+            <!-- <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
                 picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
-            />
-            <ProjectItem
-                name ="Projetc 1"
-                technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
-            />
+            /> -->
         </div>
         <p>More to come ...</p>
     </section>

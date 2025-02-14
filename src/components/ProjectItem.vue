@@ -20,8 +20,10 @@
     }
 </script>
 <template>
-    <div>
-        <img :src = "picture" />
+    <div class="projetContainer">
+        <div class="imgContainer">
+            <img :src = "picture" />
+        </div>
         <h4>{{ name }}</h4>
         <p>{{ technos }}</p>
     </div>
@@ -29,18 +31,27 @@
 <style scoped>
     div{
         height: 22rem;
-        width: 25rem;
+        width: 24rem;
         background-color: var(--color-background-soft);
         margin : 20px;
         transition:  transform .2s;
+        overflow: hidden;
     }
-    div:hover{
+    .projetContainer:hover{
         transform: scale(1.1);
         transition:  transform .2s;
         cursor : pointer;
     }
+    .imgContainer{
+        display: flex;
+        height: 18rem;
+        overflow: hidden;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
     img{
-        width: 100%;
+        height: 100%;
     }
     p, h3{
         width: 100%;
