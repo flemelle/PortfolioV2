@@ -8,52 +8,52 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
             <ProjectItem
                 name ="Projetc 1"
                 technos ="HTML, CSS, PHP"
-                picture ="src/assets/img/pexels-bri-schneiter-28802-346529.jpg"
+                picture ="https://tiphereth.site/img/pexels-bri-schneiter-28802-346529.jpg"
             />
         </div>
         <p>More to come ...</p>

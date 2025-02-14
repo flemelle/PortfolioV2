@@ -7,29 +7,29 @@ import InterestItem from "../components/InterestItem.vue"
             <InterestItem
                 name="Lorem"
                 description="Nulla eros orci, mattis vel augue sit amet, tempor sodales dolor. Nullam facilisis non elit ut luctus. Mauris scelerisque hendrerit elit nec maximus. Vivamus laoreet turpis non justo scelerisque, a auctor nibh imperdiet. Maecenas gravida varius magna, vel facilisis sem semper a. Ut nec justo metus. Praesent sit amet diam non augue mollis faucibus vel a risus. Donec ut lacinia sem. Sed dictum posuere dui sed elementum. Aliquam erat volutpat."
-                picture="../src/assets/img/bruce-lee-sunset-2.jpg"
+                picture="https://tiphereth.site/img/bruce-lee-sunset-2.jpg"
             />
             <InterestItem
                 name="Ipsum"
                 description="In fringilla volutpat est, quis imperdiet arcu maximus et. Sed at aliquet turpis, non vulputate erat. Nam ultricies suscipit ipsum vel rutrum. Fusce mollis ullamcorper leo eget varius. Sed sed elementum lorem. Sed tristique, turpis ac laoreet efficitur, mauris turpis feugiat nibh, et pharetra erat mi a diam. Etiam euismod risus vel ex vehicula convallis. Nullam eu feugiat nisi."
-                picture="../src/assets/img/iStock_000052710440_Medium.jpg"
+                picture="https://tiphereth.site/img/iStock_000052710440_Medium.jpg"
                 :order = "false"
                 />
             <InterestItem
                 name="Dolore"
                 description="Ut quis lobortis nisl. Sed suscipit felis ultrices augue rutrum sodales. Nunc in auctor nibh. Aliquam molestie eleifend justo, a blandit massa. Sed vitae posuere tellus, a gravida enim. Aenean vestibulum leo quis hendrerit malesuada. Sed scelerisque accumsan ex ut gravida." 
-                picture="../src/assets/img/peakpx_warm.jpg"
+                picture="https://tiphereth.site/img/peakpx_warm.jpg"
             />
             <InterestItem
                 name="Ipsum"
                 description="In fringilla volutpat est, quis imperdiet arcu maximus et. Sed at aliquet turpis, non vulputate erat. Nam ultricies suscipit ipsum vel rutrum. Fusce mollis ullamcorper leo eget varius. Sed sed elementum lorem. Sed tristique, turpis ac laoreet efficitur, mauris turpis feugiat nibh, et pharetra erat mi a diam. Etiam euismod risus vel ex vehicula convallis. Nullam eu feugiat nisi."
-                picture="../src/assets/img/wallpaperflare.com_wallpaper.jpg"
+                picture="https://tiphereth.site/img/wallpaperflare.com_wallpaper.jpg"
                 :order = "false"
                 />
             <InterestItem
                 name="Dolore"
                 description="Ut quis lobortis nisl. Sed suscipit felis ultrices augue rutrum sodales. Nunc in auctor nibh. Aliquam molestie eleifend justo, a blandit massa. Sed vitae posuere tellus, a gravida enim. Aenean vestibulum leo quis hendrerit malesuada. Sed scelerisque accumsan ex ut gravida."
-                picture="../src/assets/img/1326129-3840x2160-desktop-4k-book-background-image.jpg"
+                picture="https://tiphereth.site/img/1326129-3840x2160-desktop-4k-book-background-image.jpg"
             />
     </section>
 </template>

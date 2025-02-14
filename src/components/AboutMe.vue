@@ -20,7 +20,7 @@ Je jongle avec aisance entre les différents aspects du développement informati
                 <CuriculumIcon />
             </div>
             <div class=".profilPictureContainer">
-                <img class="profilPicture" src="../assets/img/Profil Picture/bg-pp.png"/>
+                <img class="profilPicture" src="../assets/img/ProfilPicture/bg-pp-gradiant.png"/>
             </div>
         </div>
     </section>
