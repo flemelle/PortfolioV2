@@ -6,19 +6,25 @@ import CuriculumIcon from './svg/CuriculumIcon.vue'
 </script>
 <template>
     <section>
-        <img alt="Vue logo" class="logo" src="../assets/img/Logo/Logo.png"/>
-        <div class = "under">  
-            <p>tiphereth.site</p>
-            <div class="icon-container">
-                <LinkedInIcon />
-                <GithubIcon />
-                <MailIcon />
+        <div class="bodyFooter">
+            <img alt="Vue logo" class="logo" src="../assets/img/Logo/Logo.png"/>
+            <div class = "under">  
+                <p>tiphereth.site</p>
+                <div class="icon-container">
+                    <LinkedInIcon />
+                    <GithubIcon />
+                    <MailIcon />
+                </div>
             </div>
         </div>
     </section>
 </template>
 <style scoped>
-    section{
+section{
+    background-color: var(--color-background-soft);
+    min-height: inherit;
+}
+    .bodyFooter{
         margin : 100px auto 50px auto;
         width: 90%;
         min-height: inherit;
