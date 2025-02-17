@@ -5,30 +5,30 @@ import InterestItem from "../components/InterestItem.vue"
     <section id="interests">
         <h2>Loisirs</h2>
             <InterestItem
-                name="Lorem"
-                description="Nulla eros orci, mattis vel augue sit amet, tempor sodales dolor. Nullam facilisis non elit ut luctus. Mauris scelerisque hendrerit elit nec maximus. Vivamus laoreet turpis non justo scelerisque, a auctor nibh imperdiet. Maecenas gravida varius magna, vel facilisis sem semper a. Ut nec justo metus. Praesent sit amet diam non augue mollis faucibus vel a risus. Donec ut lacinia sem. Sed dictum posuere dui sed elementum. Aliquam erat volutpat."
+                name="Kung-Fu"
+                description="Le kung-fu me permet d’améliorer ma souplesse, ma réactivité et ma confiance en moi. À travers les enchaînements et les combats, j’apprends à mieux gérer mon corps et mes émotions, ce qui m’aide à rester calme et efficace face aux situations imprévues. Cette capacité à m’adapter et à rester concentré est précieuse dans mon quotidien et dans ma vie professionnelle."
                 picture="https://tiphereth.site/img/bruce-lee-sunset-2.jpg"
             />
             <InterestItem
-                name="Ipsum"
-                description="In fringilla volutpat est, quis imperdiet arcu maximus et. Sed at aliquet turpis, non vulputate erat. Nam ultricies suscipit ipsum vel rutrum. Fusce mollis ullamcorper leo eget varius. Sed sed elementum lorem. Sed tristique, turpis ac laoreet efficitur, mauris turpis feugiat nibh, et pharetra erat mi a diam. Etiam euismod risus vel ex vehicula convallis. Nullam eu feugiat nisi."
+                name="Escalade"
+                description="L’escalade me pousse à analyser rapidement une situation et à prendre des décisions réfléchies sous pression. Chaque prise représente un défi à surmonter, renforçant ma patience et ma persévérance. Cette activité m’enseigne à gérer le risque et à avoir confiance en mes choix, des compétences essentielles lorsque je dois faire face à des problèmes complexes ou à des responsabilités importantes."
                 picture="https://tiphereth.site/img/iStock_000052710440_Medium.jpg"
                 :order = "false"
                 />
             <InterestItem
-                name="Dolore"
-                description="Ut quis lobortis nisl. Sed suscipit felis ultrices augue rutrum sodales. Nunc in auctor nibh. Aliquam molestie eleifend justo, a blandit massa. Sed vitae posuere tellus, a gravida enim. Aenean vestibulum leo quis hendrerit malesuada. Sed scelerisque accumsan ex ut gravida." 
+                name="Musculation"
+                description="La musculation m’aide à développer ma force physique, mais aussi ma résistance mentale. Le dépassement de soi et la constance sont des éléments clés pour progresser, ce qui m’apprend à rester motivé et persévérant dans mes objectifs. Cette rigueur et cette énergie me permettent d’aborder mon travail avec plus d’endurance et d’efficacité." 
                 picture="https://tiphereth.site/img/peakpx_warm.jpg"
             />
             <InterestItem
-                name="Ipsum"
-                description="In fringilla volutpat est, quis imperdiet arcu maximus et. Sed at aliquet turpis, non vulputate erat. Nam ultricies suscipit ipsum vel rutrum. Fusce mollis ullamcorper leo eget varius. Sed sed elementum lorem. Sed tristique, turpis ac laoreet efficitur, mauris turpis feugiat nibh, et pharetra erat mi a diam. Etiam euismod risus vel ex vehicula convallis. Nullam eu feugiat nisi."
+                name="Cinéma"
+                description="Le cinéma est pour moi une manière d’élargir ma perception des émotions et des cultures. Cela m’aide à mieux comprendre les comportements humains et à développer mon empathie. Dans ma vie professionnelle, cette sensibilité me permet d’interagir plus efficacement avec les autres, d’adapter ma communication et d’être plus créatif dans la résolution de problèmes."
                 picture="https://tiphereth.site/img/wallpaperflare.com_wallpaper.jpg"
                 :order = "false"
                 />
             <InterestItem
-                name="Dolore"
-                description="Ut quis lobortis nisl. Sed suscipit felis ultrices augue rutrum sodales. Nunc in auctor nibh. Aliquam molestie eleifend justo, a blandit massa. Sed vitae posuere tellus, a gravida enim. Aenean vestibulum leo quis hendrerit malesuada. Sed scelerisque accumsan ex ut gravida."
+                name="Lecture"
+                description="La lecture nourrit ma curiosité et enrichit ma compréhension du monde. Elle me permet d’explorer de nouvelles idées, d’améliorer mon esprit critique et d’affiner ma capacité à communiquer. Dans un cadre professionnel, ces compétences sont précieuses pour mieux structurer ma pensée, analyser des situations complexes et exprimer clairement mes idées."
                 picture="https://tiphereth.site/img/1326129-3840x2160-desktop-4k-book-background-image.jpg"
             />
     </section>

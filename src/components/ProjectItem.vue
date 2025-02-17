@@ -13,6 +13,10 @@
                 type : String,
                 required : true
             },
+            link: {
+                type : String,
+                required : true
+            },
             discription: {
                 type : String
             }
@@ -20,13 +24,15 @@
     }
 </script>
 <template>
-    <div class="projetContainer">
-        <div class="imgContainer">
-            <img :src = "picture" />
+    <a :href="link" target="_blank">
+        <div class="projetContainer">
+            <div class="imgContainer">
+                <img :src = "picture" />
+            </div>
+            <h4>{{ name }}</h4>
+            <p>{{ technos }}</p>
         </div>
-        <h4>{{ name }}</h4>
-        <p>{{ technos }}</p>
-    </div>
+    </a>
 </template>
 <style scoped>
     div{
