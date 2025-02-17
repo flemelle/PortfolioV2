@@ -5,7 +5,7 @@ import MailIcon from './svg/MailIcon.vue'
 import CuriculumIcon from './svg/CuriculumIcon.vue'
 </script>
 <template>
-    <section id="Contact">
+    <section id="contact">
         <img src="../assets/img/pexels-cottonbro-6830895.jpg" />
         <h2>Contact</h2>
         <ul>

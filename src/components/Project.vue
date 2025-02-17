@@ -2,11 +2,11 @@
 import ProjectItem from "../components/ProjectItem.vue"
 </script>
 <template>
-    <section id="Projects">
-        <h2>Project</h2>
+    <section id="projects">
+        <h2>Projets</h2>
         <div>
             <ProjectItem
-                name ="PortFolio V2"
+                name ="Portfolio V2"
                 technos ="HTML, CSS, PHP, JavaScript"
                 picture ="https://tiphereth.site/img/Project/PortefolioV2.png"
             />
@@ -16,7 +16,7 @@ import ProjectItem from "../components/ProjectItem.vue"
                 picture ="https://tiphereth.site/img/Project/Doctolib.png"
             />
             <ProjectItem
-                name ="PortFolio V1"
+                name ="Portfolio V1"
                 technos ="HTML, CSS, PHP, JavaScript"
                 picture ="https://tiphereth.site/img/Project/PortefolioV1.png"
             />

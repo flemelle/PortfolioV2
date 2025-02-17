@@ -2,8 +2,8 @@
 import InterestItem from "../components/InterestItem.vue"
 </script>
 <template>
-    <section id="Interests">
-        <h2>Interest</h2>
+    <section id="interests">
+        <h2>Loisirs</h2>
             <InterestItem
                 name="Lorem"
                 description="Nulla eros orci, mattis vel augue sit amet, tempor sodales dolor. Nullam facilisis non elit ut luctus. Mauris scelerisque hendrerit elit nec maximus. Vivamus laoreet turpis non justo scelerisque, a auctor nibh imperdiet. Maecenas gravida varius magna, vel facilisis sem semper a. Ut nec justo metus. Praesent sit amet diam non augue mollis faucibus vel a risus. Donec ut lacinia sem. Sed dictum posuere dui sed elementum. Aliquam erat volutpat."

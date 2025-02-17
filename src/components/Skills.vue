@@ -1,11 +1,11 @@
 <script>
 </script>
 <template>
-    <section id="Skills">
+    <section id="skills">
         <div>
             <img class="pictureSide" src="../assets/img/serge-taeymans-4RIVvE-PhWs-unsplash_croped.jpg" />
             <section class="skillContainer">
-                <h2>Skills</h2>
+                <h2>Compétences</h2>
                 <div class="cathegorieContainer">
                     <h3>Technologies</h3>
                     <div class="iconContainer">

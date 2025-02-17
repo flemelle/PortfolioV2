@@ -2,9 +2,9 @@
 import ExperineceItem from "../components/ExperienceFormationItem.vue"
 </script>
 <template>
-    <section id="Experiences">
+    <section id="experiences">
         <div class="formationContainer">
-            <h2>Experiences</h2>
+            <h2>Experience</h2>
             <ul>
                 <ExperineceItem
                     name="Développeuse Full Stack"

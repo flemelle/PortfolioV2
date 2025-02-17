@@ -2,7 +2,7 @@
 import EducationItem from "../components/ExperienceFormationItem.vue"
 </script>
 <template>
-    <section id="Education">
+    <section id="education">
         <img class="pictureSide" src="../assets/img/pexels-cup-of-couple-7657385.jpg" />
         <div class="formationContainer">
             <h2>Formation</h2>

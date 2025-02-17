@@ -5,10 +5,10 @@ import MailIcon from './svg/MailIcon.vue'
 import CuriculumIcon from './svg/CuriculumIcon.vue'
 </script>
 <template>
-    <section id="AboutMe">
+    <section id="aboutMe">
         <div>
             <div class="text-container">
-                <h2>About me</h2>
+                <h2>À propos</h2>
                 <p>
                     Je suis Tiphereth Bruce, une apprentie développeuse full stack de 25 ans passionnée par la création de solutions informatiques innovantes.<br/>
 Je jongle avec aisance entre les différents aspects du développement informatique, allant du front-end au back-end. Que ce soit pour concevoir des interfaces utilisateur percutantes, optimiser l'expérience utilisateur ou manipuler les bases de données, je suis à l'aise dans toutes les étapes du processus de développement. Ma souplesse et ma capacité à m'adapter me permettent d'être un atout polyvalent dans le domaine du développement.</p>

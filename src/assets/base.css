@@ -129,7 +129,7 @@ svg{
   margin : 10px;
 }
 
-#Contact svg{
+#contact svg{
   fill : var(--second-color) ;
   margin : 20px;
   width: 70px;

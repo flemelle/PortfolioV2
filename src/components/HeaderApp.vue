@@ -29,14 +29,14 @@
             </a>
             <ul>
                 <li>
-                    <a href="#AboutMe">About me</a>
+                    <a href="#aboutMe">À propos</a>
                 </li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Experiences">Experience</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Interests">Interest</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#experiences">Experience</a></li>
+                <li><a href="#education">Formation</a></li>
+                <li><a href="#interests">Loisirs</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </section>
