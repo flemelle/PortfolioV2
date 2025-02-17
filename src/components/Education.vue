@@ -46,4 +46,19 @@ import EducationItem from "../components/ExperienceFormationItem.vue"
         display: flex;
         flex-direction: column;
     }
+    @media (orientation: portrait) {      
+    
+    h2, h3, p{
+        color: var(--color-background-soft);
+    }
+    .formationContainer{
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/pexels-cup-of-couple-7657385.jpg");
+        background-position: right;
+        background-size: cover;
+        width: 100%;
+    }
+    .pictureSide{
+        display: none;
+    }
+}
 </style>

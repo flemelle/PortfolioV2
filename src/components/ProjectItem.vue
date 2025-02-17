@@ -40,13 +40,7 @@
         width: 24rem;
         background-color: var(--color-background-soft);
         margin : 20px;
-        transition:  transform .2s;
         overflow: hidden;
-    }
-    .projetContainer:hover{
-        transform: scale(1.1);
-        transition:  transform .2s;
-        cursor : pointer;
     }
     .imgContainer{
         display: flex;

@@ -100,4 +100,10 @@ li svg{
     transform: scale(1);
     transition:  transform .2s;
 }
+@media (orientation: portrait) { 
+    ul{
+        font-size: 18px;
+        width : 90%;
+    }
+}
 </style>

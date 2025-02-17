@@ -152,3 +152,8 @@ a{
   justify-content: center;
   align-items: center;
 }
+@media (orientation: portrait) {      
+  .pictureSide{
+    display: none;
+  }
+}

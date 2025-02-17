@@ -65,4 +65,12 @@ div{
     h2{
         margin: inherit;
     }
+    @media (orientation: portrait) { 
+        .profilPicture{
+            display: none;
+        }
+        .text-container{
+            width: 100%;
+        }
+    }
 </style>

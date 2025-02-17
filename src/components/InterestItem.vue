@@ -21,7 +21,7 @@
     }
 </script>
 <template>
-    <div :style="[order ? '' : 'flex-direction: row-reverse;']">
+    <div class="interestContainer" :style="[order ? '' : 'flex-direction: row-reverse;']">
         <div class="text-container">
             <h3>{{ name }}</h3>
             <p>{{ description }}</p>
@@ -47,4 +47,23 @@
     h2{
      margin : 173px 0 50px;
     }
+    
+    @media (orientation: portrait) {      
+    
+    .text-container{
+        background-position: right;
+        background-size: cover;
+        width: 100%;
+    }
+    svg{
+        fill : var(--color-background-soft) ;
+    }
+    .pictureSide{
+        display:inherit;
+        width: 100%;
+    }
+    .interestContainer{
+        flex-direction :column-reverse !important;
+    }
+}
 </style>

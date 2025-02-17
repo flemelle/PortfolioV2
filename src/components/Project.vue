@@ -93,4 +93,10 @@ import ProjectItem from "../components/ProjectItem.vue"
     p{
         margin : 20px 0;
     }
+    
+    @media (orientation: portrait) {   
+        section{
+            padding: 0;
+        }   
+    }
 </style>
