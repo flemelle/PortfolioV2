@@ -34,5 +34,9 @@ li{
     h2, h3, p{
         color: var(--color-background-soft);
     }
+    li {
+        margin: 60px auto;
+        width: 90%;
+    }
 }
 </style>

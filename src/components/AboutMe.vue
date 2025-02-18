@@ -72,5 +72,8 @@ div{
         .text-container{
             width: 100%;
         }
+        section{
+            margin : 50px 0;
+        }
     }
 </style>

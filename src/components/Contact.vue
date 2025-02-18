@@ -46,4 +46,15 @@ ul{
     padding: 0;
     margin: 100px 0 0 0;
 }
+@media (orientation: portrait) {  
+    img{    
+        image-orientation: none;
+    }
+    section{
+    height: fit-content;
+    }
+    svg{
+    margin: 20px 20px 200px 20px;
+    }
+}
 </style>

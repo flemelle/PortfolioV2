@@ -65,5 +65,11 @@
     .interestContainer{
         flex-direction :column-reverse !important;
     }
+    h3{
+        margin-top: 10px;
+    }
+    p{
+        width : 90%;
+    }
 }
 </style>
