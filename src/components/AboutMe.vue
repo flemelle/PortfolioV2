@@ -6,12 +6,12 @@ import CuriculumIcon from './svg/CuriculumIcon.vue'
 </script>
 <template>
     <section id="aboutMe">
-        <div>
+        <div class="panel">
             <div class="text-container">
                 <h2>À propos</h2>
                 <p>
                     Je suis Tiphereth Bruce, une apprentie développeuse full stack de 25 ans passionnée par la création de solutions informatiques innovantes.<br/>
-Je jongle avec aisance entre les différents aspects du développement informatique, allant du front-end au back-end. Que ce soit pour concevoir des interfaces utilisateur percutantes, optimiser l'expérience utilisateur ou manipuler les bases de données, je suis à l'aise dans toutes les étapes du processus de développement. Ma souplesse et ma capacité à m'adapter me permettent d'être un atout polyvalent dans le domaine du développement.</p>
+                    Je jongle avec aisance entre les différents aspects du développement informatique, allant du front-end au back-end. Que ce soit pour concevoir des interfaces utilisateur percutantes, optimiser l'expérience utilisateur ou manipuler les bases de données, je suis à l'aise dans toutes les étapes du processus de développement. Ma souplesse et ma capacité à m'adapter me permettent d'être un atout polyvalent dans le domaine du développement.</p>
                 <div class="icon-container">
                 <LinkedInIcon />
                 <GithubIcon />
@@ -19,8 +19,8 @@ Je jongle avec aisance entre les différents aspects du développement informati
                 </div>
                 <CuriculumIcon />
             </div>
-            <div class=".profilPictureContainer">
-                <img class="profilPicture" src="../assets/img/ProfilPicture/bg-pp-gradiant.png"/>
+            <div class="profilPictureContainer">
+                <!-- <img class="profilPicture" src="../assets/img/ProfilPicture/bg-pp-gradiant.png"/> -->
             </div>
         </div>
     </section>
@@ -44,7 +44,13 @@ div{
         margin: 0 5px;
     }
     .profilPictureContainer{
-        width : 27%;
+        width: 25rem;
+        height: 35rem;
+        background-image: url("/src/assets/img/ProfilPicture/bg-pp-gradiant.png");
+        background-position: top;
+        border-radius: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .text-container{
         display: flex;
@@ -74,6 +80,15 @@ div{
         }
         section{
             margin : 50px 0;
+        }
+        .profilPictureContainer{
+            margin: 20px auto;
+            margin-top: 50px;
+            width: 19rem;
+            height: 25rem;
+        }
+        .panel{
+            flex-direction: column-reverse;
         }
     }
 </style>

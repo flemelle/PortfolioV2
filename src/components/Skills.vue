@@ -266,7 +266,7 @@
             color: var(--color-background-soft);
         }
         .skillContainer{
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/serge-taeymans-4RIVvE-PhWs-unsplash_croped.jpg");
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/img/serge-taeymans-4RIVvE-PhWs-unsplash_croped.jpg");
             background-position: right;
             background-size: cover;
             width: 100%;
