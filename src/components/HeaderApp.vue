@@ -11,22 +11,24 @@
     const handleScroll = () => {
     isSticky.value = window.scrollY > 100; // Active le sticky header après 50px de scroll
     };
-    const openMenu = () => {
+    const toogleMenu = () => {
         menuIsOpen.value = !menuIsOpen.value;
-        console.log("menu");
+    };
+    const closeMenu = () => {
+        menuIsOpen.value = false;
     };
 
     onMounted(() => {
         window.addEventListener("scroll", handleScroll);
         if (burgerMenu.value) {
-            burgerMenu.value.addEventListener("click", openMenu);
+            burgerMenu.value.addEventListener("click", toogleMenu);
         }
     });
 
     onUnmounted(() => {
         window.removeEventListener("scroll", handleScroll);
         if (burgerMenu.value) {
-        burgerMenu.value.removeEventListener("click", openMenu);
+        burgerMenu.value.removeEventListener("click", toogleMenu);
     }
 });
 </script>
@@ -42,7 +44,7 @@
             <svg ref="burgerMenu" class="mobile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
-            <a href="#">
+            <a  @click="closeMenu" href="#">
                 <img alt="Vue logo" class="stickyLogo" src="../assets/img/Logo/Logo.png"/>
                 <h3 class="mobile">Tiphereth Bruce</h3>
             </a>
@@ -61,15 +63,27 @@
     </section>
     <nav v-show="menuIsOpen">
         <ul>
-            <li>
+            <li @click="closeMenu">
                 <a href="#aboutMe">À propos</a>
             </li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#experiences">Experience</a></li>
-            <li><a href="#education">Formation</a></li>
-            <li><a href="#interests">Loisirs</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li @click="closeMenu">
+                <a href="#skills">Compétences</a>
+            </li>
+            <li @click="closeMenu">
+                <a href="#projects">Projets</a>
+            </li>
+            <li @click="closeMenu">
+                <a href="#experiences">Experience</a>
+            </li>
+            <li @click="closeMenu">
+                <a href="#education">Formation</a>
+            </li>
+            <li @click="closeMenu">
+                <a href="#interests">Loisirs</a>
+            </li>
+            <li @click="closeMenu">
+                <a href="#contact">Contact</a>
+            </li>
             <!-- <li>
                 <LinkedInIcon />
                 <GithubIcon />
@@ -183,11 +197,10 @@ li svg{
         left : 0;
         top : 0;
         opacity: 100%;
-        transition: opacity 0.3s ease-in-out;
+        transition: opacity 0.3s;
     }
     nav[v-show="false"] {
-        opacity: 0;
-        transition: 0.3s;
+        transition: opacity 0.3s;
         display: none !important;
     }
     nav ul{
