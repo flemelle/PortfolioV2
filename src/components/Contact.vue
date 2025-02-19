@@ -52,6 +52,7 @@ ul{
     }
     section{
     height: fit-content;
+    min-height: 700px;
     }
     svg{
     margin: 20px 20px 200px 20px;

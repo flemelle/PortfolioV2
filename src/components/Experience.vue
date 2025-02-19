@@ -19,7 +19,7 @@ import ExperineceItem from "../components/ExperienceFormationItem.vue"
                 <ExperineceItem
                     name="Technicienne support informatique"
                     place="Université Paris-Est Créteil, 94000 Créteil"
-                    time="dateFormation"
+                    time="De 2021 à 2022"
                 />
             </ul>
         </div>
