@@ -6,7 +6,8 @@ import CuriculumIcon from './svg/CuriculumIcon.vue'
 </script>
 <template>
     <section id="contact">
-        <img src="../assets/img/pexels-cottonbro-6830895.jpg" />
+        <!-- <img src="../assets/img/pexels-cottonbro-6830895.jpg" /> -->
+        <div class="bg"></div>
         <h2>Contact</h2>
         <ul>
             <li>
@@ -27,11 +28,16 @@ section{
     overflow: hidden;
     align-items: center;
 }
-img{
+.bg{
     width: 100%;
+    height: 1200px;
     position : absolute;
     filter: brightness(70%);
     z-index : -1;
+    background-image: url("../assets/img/pexels-cottonbro-6830895.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 p, a, h2{
     color : var(--second-color);
@@ -47,15 +53,14 @@ ul{
     margin: 100px 0 0 0;
 }
 @media (orientation: portrait) {  
-    img{    
+    /* img{    
         image-orientation: none;
-    }
+    } */
     section{
-    height: fit-content;
-    min-height: 700px;
+        min-height: 700px;
     }
     svg{
-    margin: 20px 20px 200px 20px;
+        margin: 20px 20px 200px 20px;
     }
 }
 </style>

@@ -273,9 +273,15 @@
         }
         svg{
             fill : var(--color-background-soft) ;
+            width: 30px;
+            height: 30px;
         }
         .pictureSide{
             display: none;
+        }
+        .iconContainer{
+            height: 120px;
+            width: 100px;
         }
     }
 </style>

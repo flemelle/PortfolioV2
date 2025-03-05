@@ -55,5 +55,8 @@ import ExperineceItem from "../components/ExperienceFormationItem.vue"
         .pictureSide{
             display: none;
         }
+        section {
+            border-bottom: 20px solid var(--color-background-soft);
+        }
     }
 </style>

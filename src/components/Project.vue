@@ -93,6 +93,9 @@ import ProjectItem from "../components/ProjectItem.vue"
     p{
         margin : 20px 0;
     }
+    a{
+        max-width: calc(100% - 10px);
+    }
     
     @media (orientation: portrait) {   
         section{
