@@ -40,12 +40,12 @@
         background-color: var(--second-color);
     }
     p{
-        width : 70%;
+        width : 80%;
         margin : 0 auto;
         padding : 20px 0;
     }
-    h2{
-     margin : 173px 0 50px;
+    h3{
+     margin : 50px 0 10px;
     }
     
     @media (orientation: portrait) {      
@@ -69,7 +69,8 @@
         margin-top: 10px;
     }
     p{
-        width : 90%;
+        width : 80%;
+        padding: 20px 0 30px 0;
     }
 }
 </style>
