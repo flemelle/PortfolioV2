@@ -41,6 +41,10 @@
         background-color: var(--color-background-soft);
         margin : 20px;
         overflow: hidden;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .imgContainer{
         display: flex;
