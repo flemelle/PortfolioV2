@@ -8,13 +8,15 @@ import Experience from './components/Experience.vue'
 import Contact from './components/Contact.vue'
 import Skills from './components/Skills.vue'
 import Project from './components/Project.vue'
+import ParallaxComponent from './components/ParallaxComponent.vue'
+
 </script>
 
 <template>
   <HeaderApp/>
   <main>
     <AboutMe />
-    <Skills />
+      <Skills />
     <Project />
     <Experience />
     <Education />
