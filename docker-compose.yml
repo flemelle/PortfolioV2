@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mon-projet-vue:
+    image: nginx:alpine
+    container_name: mon-projet-vue
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+    environment:
+      - VIRTUAL_HOST=www.tiphereth.site
+      - LETSENCRYPT_HOST=www.tiphereth.site
+      - LETSENCRYPT_EMAIL=admin@tiphereth.site
+    networks:
+      - web
+    restart: unless-stopped
+
+networks:
+  web:
+    external: true
