@@ -3,7 +3,7 @@ version: '3'
 services:
   mon-projet-vue:
     image: nginx:alpine
-    container_name: mon-projet-vue
+    container_name: tiphereth
     volumes:
       - ./dist:/usr/share/nginx/html:ro
     environment:
