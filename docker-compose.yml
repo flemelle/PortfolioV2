@@ -7,8 +7,8 @@ services:
     volumes:
       - ./dist:/usr/share/nginx/html:ro
     environment:
-      - VIRTUAL_HOST=www.tiphereth.site
-      - LETSENCRYPT_HOST=www.tiphereth.site
+      - VIRTUAL_HOST=www.tiphereth.site tiphereth.site
+      - LETSENCRYPT_HOST=www.tiphereth.site tiphereth.site
       - LETSENCRYPT_EMAIL=admin@tiphereth.site
     networks:
       - web
