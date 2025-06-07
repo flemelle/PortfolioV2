@@ -32,8 +32,8 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Kaamelott"
                 technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/Project/Kaamelott.jpeg"
-                link ="https://www.korra.dev/citations_kaamelott"
+                picture ="www.korra.dev/img/Kaamelott.jpeg"
+                link ="www.kaamelott.tiphereth.site"
             />
             <ProjectItem
                 name ="Portfolio V1"
@@ -44,32 +44,32 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Memento"
                 technos ="JavaScript, Node.js"
-                picture ="https://tiphereth.site/img/Project/Memento.jpeg"
+                picture ="www.korra.dev/img/Memento.jpeg"
                 link ="https://github.com/flemelle/Memento"
             />
             <ProjectItem
                 name ="Drop"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://tiphereth.site/img/Project/Drop.png"
-                link ="https://www.korra.dev/drop/"
+                picture ="www.korra.dev/img/Drop.png"
+                link ="www.drop.tiphereth.site"
             />
             <ProjectItem
                 name ="White Lotus"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://tiphereth.site/img/Project/White_Lotus.png"
-                link ="https://www.korra.dev/white_lotus/"
+                picture ="www.korra.dev/img/White_Lotus.png"
+                link ="www.white-lotus.tiphereth.site"
             />
             <ProjectItem
                 name ="Waves"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://tiphereth.site/img/Project/Waves.png"
-                link ="https://www.korra.dev/waves/"
+                picture ="www.korra.dev/img/Waves.png"
+                link ="www.waves.tiphereth.site"
             />
             <ProjectItem
                 name ="Bubbles"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://tiphereth.site/img/Project/Bubbles.png"
-                link ="https://www.korra.dev/bubbles/"
+                picture ="www.bubbles.tiphereth.site/img/preview.png"
+                link ="www.bubbles.tiphereth.site"
             />
             <!-- <ProjectItem
                 name ="Projetc 1"
