@@ -33,7 +33,7 @@ import ProjectItem from "../components/ProjectItem.vue"
                 name ="Kaamelott"
                 technos ="HTML, CSS, PHP"
                 picture ="www.korra.dev/img/Kaamelott.jpeg"
-                link ="www.kaamelott.tiphereth.site"
+                link ="https://www.kaamelott.tiphereth.site"
             />
             <ProjectItem
                 name ="Portfolio V1"
@@ -51,25 +51,25 @@ import ProjectItem from "../components/ProjectItem.vue"
                 name ="Drop"
                 technos ="HTML, CSS, JavaScript"
                 picture ="www.korra.dev/img/Drop.png"
-                link ="www.drop.tiphereth.site"
+                link ="https://www.drop.tiphereth.site"
             />
             <ProjectItem
                 name ="White Lotus"
                 technos ="HTML, CSS, JavaScript"
                 picture ="www.korra.dev/img/White_Lotus.png"
-                link ="www.white-lotus.tiphereth.site"
+                link ="https://www.white-lotus.tiphereth.site"
             />
             <ProjectItem
                 name ="Waves"
                 technos ="HTML, CSS, JavaScript"
                 picture ="www.korra.dev/img/Waves.png"
-                link ="www.waves.tiphereth.site"
+                link ="https://www.waves.tiphereth.site"
             />
             <ProjectItem
                 name ="Bubbles"
                 technos ="HTML, CSS, JavaScript"
                 picture ="www.bubbles.tiphereth.site/img/preview.png"
-                link ="www.bubbles.tiphereth.site"
+                link ="https://www.bubbles.tiphereth.site"
             />
             <!-- <ProjectItem
                 name ="Projetc 1"
