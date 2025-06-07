@@ -32,7 +32,7 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Kaamelott"
                 technos ="HTML, CSS, PHP"
-                picture ="www.korra.dev/img/Kaamelott.jpeg"
+                picture ="https://www.korra.dev/img/Kaamelott.jpeg"
                 link ="https://www.kaamelott.tiphereth.site"
             />
             <ProjectItem
@@ -44,31 +44,31 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Memento"
                 technos ="JavaScript, Node.js"
-                picture ="www.korra.dev/img/Memento.jpeg"
+                picture ="https://www.korra.dev/img/Memento.jpeg"
                 link ="https://github.com/flemelle/Memento"
             />
             <ProjectItem
                 name ="Drop"
                 technos ="HTML, CSS, JavaScript"
-                picture ="www.korra.dev/img/Drop.png"
+                picture ="https://www.korra.dev/img/Drop.png"
                 link ="https://www.drop.tiphereth.site"
             />
             <ProjectItem
                 name ="White Lotus"
                 technos ="HTML, CSS, JavaScript"
-                picture ="www.korra.dev/img/White_Lotus.png"
+                picture ="https://www.korra.dev/img/White_Lotus.png"
                 link ="https://www.white-lotus.tiphereth.site"
             />
             <ProjectItem
                 name ="Waves"
                 technos ="HTML, CSS, JavaScript"
-                picture ="www.korra.dev/img/Waves.png"
+                picture ="https://www.korra.dev/img/Waves.png"
                 link ="https://www.waves.tiphereth.site"
             />
             <ProjectItem
                 name ="Bubbles"
                 technos ="HTML, CSS, JavaScript"
-                picture ="www.bubbles.tiphereth.site/img/preview.png"
+                picture ="https://www.bubbles.tiphereth.site/img/preview.png"
                 link ="https://www.bubbles.tiphereth.site"
             />
             <!-- <ProjectItem
