@@ -32,7 +32,7 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Kaamelott"
                 technos ="HTML, CSS, PHP"
-                picture ="https://www.korra.dev/img/Kaamelott.jpeg"
+                picture ="https://www.korra.dev/img/project/Kaamelott.jpeg"
                 link ="https://www.kaamelott.tiphereth.site"
             />
             <ProjectItem
@@ -44,25 +44,25 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Memento"
                 technos ="JavaScript, Node.js"
-                picture ="https://www.korra.dev/img/Memento.jpeg"
+                picture ="https://www.korra.dev/img/project/Memento.jpeg"
                 link ="https://github.com/flemelle/Memento"
             />
             <ProjectItem
                 name ="Drop"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.korra.dev/img/Drop.png"
+                picture ="https://www.korra.dev/img/project/Drop.png"
                 link ="https://www.drop.tiphereth.site"
             />
             <ProjectItem
                 name ="White Lotus"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.korra.dev/img/White_Lotus.png"
+                picture ="https://www.korra.dev/img/project/White_Lotus.png"
                 link ="https://www.white-lotus.tiphereth.site"
             />
             <ProjectItem
                 name ="Waves"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.korra.dev/img/Waves.png"
+                picture ="https://www.korra.dev/img/project/Waves.png"
                 link ="https://www.waves.tiphereth.site"
             />
             <ProjectItem
