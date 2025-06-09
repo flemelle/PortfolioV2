@@ -8,67 +8,67 @@ import ProjectItem from "../components/ProjectItem.vue"
             <ProjectItem
                 name ="Portfolio V2"
                 technos ="HTML, CSS, PHP, JavaScript"
-                picture ="https://tiphereth.site/img/Project/PortefolioV2.png"
+                picture ="https://resource.tiphereth.site/img/project/portfolioV2.png"
                 link ="https://github.com/flemelle/PortfolioV2"
             />
             <ProjectItem
                 name ="Doctolib Like (client lourd)"
                 technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/Project/Doctolib.png"
+                picture ="https://resource.tiphereth.site/img/project/Logo-doctolib.svg"
                 link ="https://github.com/flemelle/Doctolib_BTS_Project"
             />
             <ProjectItem
                 name ="Doctolib Like (client léger)"
                 technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/Project/Doctolib.png"
+                picture ="https://resource.tiphereth.site/img/project/Logo-doctolib.svg"
                 link ="https://github.com/flemelle/BTS_SIO-Client_Leger"
             />
             <ProjectItem
                 name ="Air France Like"
                 technos ="HTML, CSS, PHP"
-                picture ="https://tiphereth.site/img/Project/Air-France-Logo.png"
+                picture ="https://resource.tiphereth.site/img/project/Air-France-Logo.png"
                 link ="https://github.com/flemelle/Air-France-projet-scolaire"
             />
             <ProjectItem
                 name ="Kaamelott"
                 technos ="HTML, CSS, PHP"
-                picture ="https://www.korra.dev/img/project/Kaamelott.jpeg"
+                picture ="https://resource.tiphereth.site/img/project/Kaamelott.jpeg"
                 link ="https://www.kaamelott.tiphereth.site"
             />
             <ProjectItem
                 name ="Portfolio V1"
                 technos ="HTML, CSS, PHP, JavaScript"
-                picture ="https://tiphereth.site/img/Project/PortefolioV1.png"
+                picture ="https://resource.tiphereth.site/img/project/portfolioV1.png"
                 link ="https://www.korra.dev/"
             />
             <ProjectItem
                 name ="Memento"
                 technos ="JavaScript, Node.js"
-                picture ="https://www.korra.dev/img/project/Memento.jpeg"
+                picture ="https://resource.tiphereth.site/img/project/Memento.jpeg"
                 link ="https://github.com/flemelle/Memento"
             />
             <ProjectItem
                 name ="Drop"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.korra.dev/img/project/Drop.png"
+                picture ="https://resource.tiphereth.site/img/project/Drop.png"
                 link ="https://www.drop.tiphereth.site"
             />
             <ProjectItem
                 name ="White Lotus"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.korra.dev/img/project/White_Lotus.png"
+                picture ="https://resource.tiphereth.site/img/project/White_Lotus.png"
                 link ="https://www.white-lotus.tiphereth.site"
             />
             <ProjectItem
                 name ="Waves"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.korra.dev/img/project/Waves.png"
+                picture ="https://resource.tiphereth.site/img/project/Waves.png"
                 link ="https://www.waves.tiphereth.site"
             />
             <ProjectItem
                 name ="Bubbles"
                 technos ="HTML, CSS, JavaScript"
-                picture ="https://www.bubbles.tiphereth.site/img/preview.png"
+                picture ="https://resource.tiphereth.site/img/project/Bubbles.png"
                 link ="https://www.bubbles.tiphereth.site"
             />
             <!-- <ProjectItem
