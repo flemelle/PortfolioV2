@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   mon-projet-vue:
@@ -7,8 +7,8 @@ services:
     volumes:
       - ./dist:/usr/share/nginx/html:ro
     environment:
-      - VIRTUAL_HOST=www.tiphereth.site tiphereth.site
-      - LETSENCRYPT_HOST=www.tiphereth.site tiphereth.site
+      - VIRTUAL_HOST=tiphereth.site,www.tiphereth.site
+      - LETSENCRYPT_HOST=tiphereth.site,www.tiphereth.site
       - LETSENCRYPT_EMAIL=admin@tiphereth.site
     networks:
       - web
